@@ -75,7 +75,7 @@ git == 게임　세이브, 불러오기, 포토샵　history 　
 git : 다운로드 -> 쭉쭉쭉 윈도우 사용자는 gitbash 설치할건? 하는거에 꼭 체크 -> 디폴트 쭉쭉쭉
 github : 계정 생성 및 가입 
 
-
+<br>
 
 #### 1. git init 
 
@@ -113,7 +113,7 @@ github : 계정 생성 및 가입
 
   
 
-3. git init으로 로컬 저장소 생성 
+3) git init으로 로컬 저장소 생성 
 
    ```bash
    $ git init
@@ -128,7 +128,7 @@ github : 계정 생성 및 가입
 
    
 
-
+<br>
 
 
 #### 2. 버전 만들기 
@@ -183,7 +183,7 @@ Date:   Fri May 5 19:06:42 2023 +0900
 버전관리 <-> 커밋을 만들고 그 커밋을 잘 쌓는것 
 
 
-
+<br>
 
 
 #### 3. 내가 만든 버전(commit) 깃허브에 올리기 
@@ -242,6 +242,9 @@ Date:   Fri May 5 19:06:42 2023 +0900
 
 
 
+<br>
+<br>
+
 
 ## < 다른사람이 만든 저장소 받아오기 : clone >
 
@@ -255,6 +258,8 @@ Date:   Fri May 5 19:06:42 2023 +0900
 
 1. 원격저장소를 받아올 폴더 준비 : Boxiting-oct
    cd로 Boxiting-oct로 이동해 ls -al 확인
+
+   <br>
 
 2. 원격 저장소 폴더에 받아오기 : $ git clone
 
@@ -275,7 +280,7 @@ Date:   Fri May 5 19:06:42 2023 +0900
    -rw-r--r-- 1 HOME 197121 0 May  5 19:43 README.md
    ```
 
-   
+   <br>
 
    
 
@@ -308,8 +313,10 @@ Date:   Fri May 5 19:06:42 2023 +0900
 
    
 
-   
+<br>
+<br>
 
+   
 
 
 4. cat 이 문어의 변경 사항 가져오기 : pull 
@@ -339,6 +346,9 @@ Date:   Fri May 5 19:06:42 2023 +0900
 -> 일단 GUI로 초반 익숙해지기 + 나중에 더 복잡한 작업할 땐 CLI 
 
 
+
+<br>
+<br>
 
 
 
@@ -378,6 +388,9 @@ git : 이전 커밋만 보면 됨 (속도 빠름) + 기존 커밋과 비교해 �
 
 
 
+<br>
+<br>
+
 
 
 
@@ -416,6 +429,7 @@ master에서 브랜치 만드려면 두번째에 마스터 태그 붙어있는 �
 
 
 
+<br>
 
 
 #### <합치기 : 머지(merge)> 
@@ -438,6 +452,8 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 
 
 
+<br>
+
 
 #### <나누기 2 : 저장소 통째로 복사 : fork> 
 
@@ -453,7 +469,7 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 
 
 
-
+<br>
 
 #### <내 코드를 머지해줘 : full　request> 
 
@@ -463,6 +479,9 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 ＞　풀　리퀘스트　：　이　커밋이랑　저　커밋을　합치는걸　허락해줘　
 
 
+
+<br>
+<br>
 
 
 ## [실무사례] 
@@ -478,7 +497,7 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 
 
 
-
+<br>
 
 #### 2. stash 
 
@@ -490,7 +509,7 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 -> pop : 다시 꺼내오기 (스태시 우클릭) 
 
 
-
+<br>
 
 
 
@@ -506,7 +525,7 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 3) soft : 모든 로컬 변경사항을 유지 
 
 
-
+<br>
 
 #### 4. revert 
 
@@ -515,7 +534,7 @@ feat/mainpage랑 병합하니까 feat/mainpage에 master가 이동
 master에 잘못된 커밋을 올려버렸다. reset하고 force push 하면 다른 사람들한테 영향을 주니 revert해야함 
 -> 수정사항이 반영된 커밋을 되돌려줘서 새로은 커밋으로 새로 쌓으면서 이전의 커밋 삭제
 
-
+<br>
 
 
 #### 5. cherry-pick 
@@ -523,3 +542,8 @@ master에 잘못된 커밋을 올려버렸다. reset하고 force push 하면 다
 : 여러가지 커밋들중 원하는 것만 데서 지금 브랜치에 붙이는 것 
 제가 고친 코드가 있는 커밋을 latest에 똑 떼서 붙일게요~ 
 -> 원하는 커밋을 맘대로 똑 떼와서 쌓을 수 있음 
+
+
+<br>
+<br>
+
